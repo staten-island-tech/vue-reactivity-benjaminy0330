@@ -1,22 +1,15 @@
+<template>
+  <div>
+<h1 class = "title">Grocery Store Simulation 2</h1>
+<h2>Search through grocery store items and add them to your cart</h2>
+  </div>
+</template>
+
 <script setup>
 
 </script>
 
-<template>
-  <header>
-    
+<style scoped>
 
-    <div class="wrapper">
-      
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
-</template>
-
+</style>
 
