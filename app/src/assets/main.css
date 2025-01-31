@@ -1,5 +1,7 @@
 @import './base.css';
 
-.title{
+.header{
   text-align: center;
+  color: black;
+  margin-bottom: 5rem;
 }
