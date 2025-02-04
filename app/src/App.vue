@@ -12,6 +12,11 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
+import { techItems } from '../items';
+
+
+
 
 </script>
 
