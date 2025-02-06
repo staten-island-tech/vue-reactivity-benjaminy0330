@@ -1,10 +1,10 @@
 <template>
   <div class = "header">
-<h1 :titleClass>Technology Store</h1>
+<h1 :class = "titleClass">Technology Store</h1>
 <h2 >Search through grocery store items and add them to your cart</h2>
   </div>
 
-  <div :cardsClass = "cards">
+  <div :cardsClass>
 
   </div>
 
@@ -15,15 +15,23 @@
 
 <script setup>
 import { reactive, ref } from 'vue'
+const titleClass = ref('title')
 
-//import { techItems } from '../items';
+import { techItems } from '../items';
 
+/*items.forEach((techItems)) => {
+  const html = `
+  <div :cardClass> 
+    <h2> ${techItems.name} <h2/>
+  `;
+insert into div :cartClass
+}*/
 
-const message = ref('asdas')
+const message = ref('schol')
 
 
 console.log(message.value)
-message.value = 'Changed'
+message.value = 'The message has been successfully changed'
 
 
 </script>
@@ -31,6 +39,7 @@ message.value = 'Changed'
 <style scoped> 
 .title{
   color: rgb(255, 0, 0);
+  text-align: center;
 }
 </style>
 
