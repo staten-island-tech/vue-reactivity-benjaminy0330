@@ -5,35 +5,26 @@
   </div>
 
   <div :cardsClass>
-
+    <itemCard
+    v-for = "techItem in techItems"
+    :key = "techItems.name"
+    :techItem = "techItem"
+    />
   </div>
 
-<div :cartClass>
-  <h2>Total price: </h2>
-</div>
 </template>
 
 <script setup>
-import { reactive, ref } from 'vue'
-const titleClass = ref('title')
+/*
+import {techItems} from `../items.js`;
 
-import { techItems } from '../items';
-
-/*items.forEach((techItems)) => {
-  const html = `
-  <div :cardClass> 
-    <h2> ${techItems.name} <h2/>
-  `;
-insert into div :cartClass
-}*/
-
-const message = ref('schol')
+const message = ref(`cool kid`)
 
 
 console.log(message.value)
 message.value = 'The message has been successfully changed'
 
-
+*/
 </script>
 
 <style scoped> 
