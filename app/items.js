@@ -1,19 +1,126 @@
-const techItems = [
-    { name: "Laptop", price: "$999.99" },
-    { name: "Smartphone", price: "$799.99" },
-    { name: "Wireless Earbuds", price: "$149.99" },
-    { name: "Mechanical Keyboard", price: "$129.99" },
-    { name: "Gaming Mouse", price: "$69.99" },
-    { name: "4K Monitor", price: "$349.99" },
-    { name: "Smartwatch", price: "$249.99" },
-    { name: "External Hard Drive", price: "$89.99" },
-    { name: "Graphics Card", price: "$599.99" },
-    { name: "Bluetooth Speaker", price: "$99.99" },
-    { name: "VR Headset", price: "$399.99" },
-    { name: "Router", price: "$129.99" },
-    { name: "Tablet", price: "$499.99" },
-    { name: "Streaming Device", price: "$49.99" },
-    { name: "Smart Home Hub", price: "$179.99" }
-];
+const items = 
 
-export { techItems };
+[
+    {
+      name: "Color TV-Game",
+      year: 1977,
+      price: 90
+    },
+    {
+      name: "Game & Watch",
+      year: 1980,
+      price: 50
+    },
+    {
+      name: "Nintendo Entertainment System (NES)",
+      year: 1983,
+      price: 179
+    },
+    {
+      name: "Game Boy",
+      year: 1989,
+      price: 89.99
+    },
+    {
+      name: "Super Nintendo Entertainment System (SNES)",
+      year: 1990,
+      price: 199
+    },
+    {
+      name: "Virtual Boy",
+      year: 1995,
+      price: 179.99
+    },
+    {
+      name: "Nintendo 64",
+      year: 1996,
+      price: 199.99
+    },
+    {
+      name: "Game Boy Color",
+      year: 1998,
+      price: 69.99
+    },
+    {
+      name: "Game Boy Advance",
+      year: 2001,
+      price: 99.99
+    },
+    {
+      name: "Nintendo GameCube",
+      year: 2001,
+      price: 199.99
+    },
+    {
+      name: "Nintendo DS",
+      year: 2004,
+      price: 149.99
+    },
+    {
+      name: "Nintendo DS Lite",
+      year: 2006,
+      price: 129.99
+    },
+    {
+      name: "Nintendo Wii",
+      year: 2006,
+      price: 249.99
+    },
+    {
+      name: "Nintendo DSi",
+      year: 2008,
+      price: 169.99
+    },
+    {
+      name: "Nintendo DSi XL",
+      year: 2009,
+      price: 189.99
+    },
+    {
+      name: "Nintendo 3DS",
+      year: 2011,
+      price: 249.99
+    },
+    {
+      name: "Nintendo Wii U",
+      year: 2012,
+      price: 299.99
+    },
+    {
+      name: "Nintendo 2DS",
+      year: 2013,
+      price: 129.99
+    },
+    {
+      name: "New Nintendo 3DS",
+      year: 2014,
+      price: 199.99
+    },
+    {
+      name: "New Nintendo 3DS XL",
+      year: 2015,
+      price: 199.99
+    },
+    {
+      name: "New Nintendo 2DS XL",
+      year: 2017,
+      price: 149.99
+    },
+    {
+      name: "Nintendo Switch",
+      year: 2017,
+      price: 299.99
+    },
+    {
+      name: "Nintendo Switch Lite",
+      year: 2019,
+      price: 199.99
+    },
+    {
+      name: "Nintendo Switch OLED",
+      year: 2021,
+      price: 349.99
+    }
+  ]
+  
+  export { items }
