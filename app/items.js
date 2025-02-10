@@ -4,7 +4,9 @@ const items =
     {
       name: "Color TV-Game",
       year: 1977,
-      price: 90
+      price: 90,
+      
+      
     },
     {
       name: "Game & Watch",
@@ -12,7 +14,7 @@ const items =
       price: 50
     },
     {
-      name: "Nintendo Entertainment System (NES)",
+      name: "Nintendo Entertainment System",
       year: 1983,
       price: 179
     },
@@ -22,7 +24,7 @@ const items =
       price: 89.99
     },
     {
-      name: "Super Nintendo Entertainment System (SNES)",
+      name: "Super Nintendo Entertainment System",
       year: 1990,
       price: 199
     },
