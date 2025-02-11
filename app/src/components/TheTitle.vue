@@ -1,13 +1,12 @@
 <template>
   <div>
-    <ItemList ></ItemList>
+    <h1>Nintendo Game System Store</h1>
   </div>
 </template>
 
 <script setup>
-import ItemList from "../components/Itemlist.vue";
+
 </script>
 
 <style scoped>
 </style>
-
