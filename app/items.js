@@ -5,6 +5,7 @@ const items =
       name: "Color TV-Game",
       year: 1977,
       price: 90,
+      image: "https://cdn.britannica.com/52/128652-050-14AD19CA/Maki-zushi.jpg"
       
       
     },

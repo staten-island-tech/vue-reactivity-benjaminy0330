@@ -4,7 +4,7 @@
       <h3>{{ item.name }}</h3>
       <p>Year: {{ item.year }}</p>
       <p>Price: ${{ item.price }}</p>
-      <button class="button">Add to cart</button>
+      <slot></slot>
     </div>
   </div>
 </template>

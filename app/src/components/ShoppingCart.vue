@@ -10,5 +10,10 @@
 </script>
 
 <style scoped>
+.cart{
+    background-color: rgb(44, 40, 40);
+    color: white;
+    text-align: center;
+}
 
 </style>
