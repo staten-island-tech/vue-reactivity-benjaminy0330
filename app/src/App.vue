@@ -1,10 +1,7 @@
 <template>
   <div>
     <TheTitle />
-    <ItemList 
-    v-for="item in items" 
-    :key="item.name" >
-    <button>Add to cart</button></ItemList>
+    <ItemList  />
     <ShoppingCart />
   </div>
 </template>

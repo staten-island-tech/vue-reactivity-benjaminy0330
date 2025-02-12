@@ -4,7 +4,9 @@
       <h3>{{ item.name }}</h3>
       <p>Year: {{ item.year }}</p>
       <p>Price: ${{ item.price }}</p>
-      <slot></slot>
+      <img :src="item.image" alt="">
+
+      
     </div>
   </div>
 </template>
@@ -14,18 +16,5 @@ import { items } from '../../items';
 </script>
 
 <style scoped>
-.container{
-color: rgb(255, 255, 255);
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-padding-bottom: 2rem;
-}
 
-.item{
-text-align: center;
-width: 20rem;
-background-color: rgb(34, 32, 32);
-
-}
 </style>
