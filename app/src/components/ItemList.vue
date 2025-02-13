@@ -17,4 +17,8 @@ import { items } from '../../items';
 
 <style scoped>
 
+.item{
+  background-color: rgb(56, 49, 49);
+  color: white;
+}
 </style>
