@@ -11,7 +11,10 @@
 <style scoped>
 .title{
   color: rgb(255, 255, 255);
+  font-size: 2rem;
   text-align: center;
-  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 2rem;
 }
 </style>

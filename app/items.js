@@ -6,8 +6,6 @@ const items =
       year: 1977,
       price: 90,
       
-      
-      
     },
     {
       name: "Game & Watch",
@@ -17,7 +15,9 @@ const items =
     {
       name: "Nintendo Entertainment System",
       year: 1983,
-      price: 179
+      price: 179,
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/NES-Console-Set.png/1920px-NES-Console-Set.png"
+      
     },
     {
       name: "Game Boy",
