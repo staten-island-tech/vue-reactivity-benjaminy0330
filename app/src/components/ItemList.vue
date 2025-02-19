@@ -2,10 +2,11 @@
   <div class = "container">
     <div class="item" v-for="item in items" :key="item.name">
       <h3>{{ item.name }}</h3>
+      <img class = "img" :src="item.image" alt="">
       <p>Year: {{ item.year }}</p>
       <p>Price: ${{ item.price }}</p>
-      <img :src="item.image" alt="">
-      <button >Add to cart</button>
+      
+      <button @click="addtoCart(item)" :id ="item.name">Add to cart</button>
 
       
     </div>
@@ -13,7 +14,18 @@
 </template>
 
 <script setup>
-import { items } from '../../items';
+import { items } from '../items';
+import { cart } from '../cart';
+
+
+
+function addtoCart(item) {
+  cart.items ++
+  cart.price += item.price
+
+}
+
+
 </script>
 
 <style scoped>
@@ -30,5 +42,9 @@ import { items } from '../../items';
   padding-bottom: 1rem;
   width: 30rem;
  
+}
+
+.img{
+  width: 26rem;
 }
 </style>
