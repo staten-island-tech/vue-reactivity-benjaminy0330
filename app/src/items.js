@@ -39,7 +39,7 @@ const items =
       name: "Virtual Boy",
       year: 1995,
       price: 180,
-      image:"https://upload.wikimedia.org/wikipedia/commons/4/44/Virtual-Boy-Set.jpg"
+      image:"https://www.researchgate.net/profile/Dennis-Reimer-2/publication/320908439/figure/fig1/AS:558081860161537@1510068492580/rtual-Boy-from-Nintendo-4.png"
     },
     {
       name: "Nintendo 64",
@@ -51,7 +51,7 @@ const items =
       name: "Game Boy Color",
       year: 1998,
       price: 70,
-      image:"https://upload.wikimedia.org/wikipedia/commons/2/26/Nintendo_Game_Boy_Color.png"
+      image:"https://m.media-amazon.com/images/I/61Qhl7P2RkL.jpg"
       
     },
     {

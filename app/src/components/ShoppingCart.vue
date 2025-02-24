@@ -1,9 +1,9 @@
 <template>
     <div class = "cart">
         <h1>Shopping cart</h1>
-        <h2>Total Price: ${{ cart.price }}.00</h2>
-        <h2># of Items: {{ cart.items }}</h2>
-        <button @click = clearall(cart)>Clear all</button>
+        <h3>Total Price: ${{ cart.price }}.00</h3>
+        <h3># of Items: {{ cart.items }}</h3>
+        <button class = "clearall" @click = clearall(cart)>Remove all items</button>
        
  </div>
 </template>
@@ -26,6 +26,15 @@ function clearall(cart)  {
     background-color: rgb(44, 40, 40);
     color: white;
     text-align: center;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+    
+    
+}
+
+.clearall:hover{
+    color:red;
+    
 }
 
 </style>
